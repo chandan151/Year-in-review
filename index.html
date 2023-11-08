@@ -6,48 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandrayaan-3</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js">
+    </script>
 </head>
 
 <body>
     <header>
         <h1>Chandrayaan-3 Past Year Review</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#developments">Key Developments</a></li>
-            <li><a href="#animations">Animations</a></li>
-        </ul>
-    </nav>
     <main>
-        <section id="about">
-            <h2>About Chandrayaan-3</h2>
-            <p>
-                Chandrayaan-3 is India's third lunar exploration mission. It is designed to continue the success of Chandrayaan-2 
-                and further explore the Moon's surface and its composition. Launched in [Year], Chandrayaan-3 has made significant 
-                progress in understanding lunar geology and topography.
-            </p>
-        </section>
-        <section id="developments">
-            <h2>Key Developments</h2>
-            <p>
-                Over the past year, Chandrayaan-3 has achieved several milestones. Some of the key developments include:
-            </p>
-            <ul>
-                <li>Discovery of [Important Discovery]</li>
-                <li>Successful deployment of [Instrument/Technology]</li>
-                <li>[Another Significant Achievement]</li>
-            </ul>
-        </section>
-        <section id="animations">
-            <h2>Animations</h2>
-            <div class="animation">
-                
+        <div class="container">
+            <div class="item1">
+                <p>Chandrayaan-3 is the third mission in the Chandrayaan programme, a series of lunar-exploration missions developed by the Indian Space Research Organisation (ISRO). Launched on 14 July 2023, the mission consists of a lunar lander named Vikram and a lunar rover named Pragyan.</p>
+                <p>Chandrayaan-3 was launched from Satish Dhawan Space Centre on 14 July 2023. The spacecraft entered lunar orbit on 5 August, and the lander touched down near the Lunar south pole on 23 August at 18:03 IST (12:33 UTC), making India the fourth country to successfully land on the Moon, and the first to do so near the lunar south pole. On 3 September the lander hopped and repositioned itself 30 – 40 cm from its landing site. After the completion of its mission objectives, it was hoped that the lander and rover would revive for extra tasks, on 22 September 2023, but missed the wake-up call. On September 30, the second lunar night began, eliminating hopes of revival.</p>
             </div>
-        </section>
+
+            <div class="item2">
+                <model-viewer src="assets/space_exploration_wlp_series_8.glb" camera-controls touch-action="pan-y" shadow-intensity="1"></model-viewer>
+            </div>
+        </div>
+        
+
+        <div class="container">
+
+            <p class="item1">Chandrayaan-3 is the third mission in the Chandrayaan programme, a series of lunar-exploration missions developed by the Indian Space Research Organisation (ISRO). Launched on 14 July 2023, the mission consists of a lunar lander named Vikram and a lunar rover named Pragyan.</p>
+
+
+          <div id="slideshow" class="item2">
+            <div class="four">
+              <img src="assets/rocket.jpg"/></div>
+            <div class="three">
+              <img></div>
+            <div class="two">
+              <img src="assets/lvm-3_launch_a-sixteen_nine.avif"/></div>
+            <div class="one">
+             <img src="assets/NPIC-2023713204456.jpg"/></div>
+          </div>
+        
+        </div>
+
+        
     </main>
     <footer>
-        <p>&copy; 2023 Your Website Name</p>
+        <p>&copy; 2023 Chandrayaan-3 Past-year-review</p>
     </footer>
 
     <script src="js/script.js"></script>
