@@ -26,7 +26,7 @@ model-viewer {
 
 .item1 {
     width: 40%;
-    font-size:large;
+    font-size:larger;
     font-weight:400;
 }
 
@@ -40,6 +40,11 @@ model-viewer {
 
 .text h1 {
     text-align: center;
+}
+
+.text p {
+    text-align: justify;
+    font-size: large;
 }
 
 .animation {
@@ -62,6 +67,8 @@ model-viewer {
 
 table {
     width: 100%;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 #gall {
