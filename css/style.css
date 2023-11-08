@@ -6,11 +6,12 @@ body {
 
 header {
     text-align: right;
-    padding: 2%;
+    font-size:x-large;
+    padding: 1%;
 }
 
 main {
-    padding: 2%;
+    padding: 3%;
 }
 
 model-viewer {
@@ -33,6 +34,14 @@ model-viewer {
     width: 55%;
 }
 
+.text {
+    padding: 2%;
+}
+
+.text h1 {
+    text-align: center;
+}
+
 .animation {
     width:90%;
     max-width:90%;
@@ -51,16 +60,14 @@ model-viewer {
     justify-content: space-evenly;
 }
 
-.gallery {
-    display: flex;
-}
-
-.gallery-item {
-    width: 50%;
+table {
+    width: 100%;
 }
 
 #gall {
-    width: 100%;
+    position: relative;
+    top: 200px;
+    text-align: left;
 }
 
 #slideshow {
@@ -68,15 +75,15 @@ model-viewer {
     margin-right: 10vw;
     margin-top: 5vw;
     overflow: hidden;
+    width: 75%;
   }
-  
-  
-  .one {
+
+.one {
     animation-name: carouselOne;
     animation-duration: 24s;
     animation-iteration-count: infinite;
     position: absolute;
-  }
+}
   
   .two {
     animation-name: carouselTwo;
