@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'MuseoModerno', sans-serif;
     background-color: #dfccec;
     margin: 0;
 }
@@ -25,10 +25,42 @@ model-viewer {
 
 .item1 {
     width: 40%;
+    font-size:large;
+    font-weight:400;
 }
 
 .item2 {
     width: 55%;
+}
+
+.animation {
+    width:90%;
+    max-width:90%;
+    padding: 4%;
+}
+
+.trow {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.trow1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery-item {
+    width: 50%;
+}
+
+#gall {
+    width: 100%;
 }
 
 #slideshow {
